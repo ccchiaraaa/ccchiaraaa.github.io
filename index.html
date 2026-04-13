@@ -127,14 +127,15 @@
             <p><strong>My contribution:</strong> Completed all data cleaning, clustering analysis, and visualization independently. Achieved A- grade in Data Mining course.</p>
         </div>
 
-        <!-- Project 2: Group Project - Deep Learning Application -->
+       <!-- Project 2: Group Project - Real-Time IMU-Based Framework for Gait Analysis -->
         <div class="project-card">
-            <h3>Image Classification with Deep Learning (Group Project) | Spring 2026</h3>
-            <p><strong>Problem:</strong> Develop a deep learning model to classify medical images for assisting diagnosis (course project).</p>
-            <p><strong>Data:</strong> Public medical image dataset (5,000+ labeled images, 10 categories).</p>
-            <p><strong>Approach:</strong> Built CNN models using TensorFlow/Keras. Applied data augmentation, transfer learning (ResNet50), and hyperparameter tuning.</p>
-            <p><strong>Outcome/Impact:</strong> Achieved 87% validation accuracy, improving baseline by 12%. Model demonstrated potential for real-world clinical support.</p>
-            <p><strong>My contribution:</strong> Responsible for data preprocessing, model architecture design, and performance evaluation. Collaborated on report writing.</p>
+            <h3>A Real-Time IMU-Based Framework for Detecting Distraction- and Fatigue-Induced Gait Alterations (Group Project) | Spring 2026</h3>
+            <p><strong>Problem:</strong> Distraction and fatigue are leading causes of falls and mobility impairments, especially in aging populations and high-risk work environments. Existing gait analysis systems are either expensive (motion capture) or lack real-time feedback capabilities. The goal was to develop a low-cost, real-time framework using IMU sensors to detect gait alterations caused by cognitive distraction and physical fatigue.</p>
+            <p><strong>Data:</strong> Collected IMU sensor data (accelerometer, gyroscope) from 30+ participants under controlled conditions (normal walking, distracted walking using cognitive tasks, and fatigued walking). Raw time-series data included tri-axial acceleration and angular velocity at 100 Hz sampling rate.</p>
+            <p><strong>Approach:</strong> Designed a real-time processing pipeline: (1) Noise filtering and signal segmentation, (2) Feature extraction (statistical, spectral, and gait cycle features), (3) Classification using Random Forest and LightGBM models. The backend system handled real-time data streaming, feature computation, and model inference with low latency.</p>
+            <p><strong>Outcome/Impact:</strong> Achieved 89% accuracy in detecting distraction-induced gait changes and 86% for fatigue-induced alterations, with an average inference latency of 50ms. Demonstrated feasibility of a wearable, real-time alert system for fall risk prevention.</p>
+            <p><strong>My contribution:</strong> Led the backend development of the real-time framework, including: (1) Building the data streaming pipeline for IMU sensor input, (2) Implementing feature extraction modules in Python, (3) Optimizing model inference for real-time performance, (4) Integrating the backend with front-end visualization and alert systems.</p>
+            <p><a href="#">github：https://github.com/hecaizhis-dev/gait_stability.git</a></p>
         </div>
 
         <!-- Project 3: Bluetooth Communication Module (Undergrad Project) -->
